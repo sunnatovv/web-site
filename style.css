@@ -225,3 +225,117 @@ header {
   display: flex;
   margin-left: 375px;
 }
+/* 
+ */
+
+.about-menu {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.about-menu .left,
+.right {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  display: flex;
+  border-radius: 10px;
+}
+
+.hamza {
+  padding: 30px 10px 20px 30px;
+}
+
+.hamza p {
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8b8e99;
+}
+.str h2 {
+  margin-top: 110px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #3858d6;
+}
+
+.str h3 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.dots {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
+.subscribe {
+  width: 900px;
+  display: flex;
+  background-color: #f6f6f6;
+  margin: 100px auto;
+}
+.subscribe .left {
+  padding: 100px 50px;
+}
+
+.subscribe .left h2 {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+.subscribe .left p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888e99;
+}
+.subscribe .left input {
+  margin-top: 50px;
+  padding: 13px 100px;
+  border-radius: 10px;
+  border: 1px solid #f6f6f6;
+  background-color: white;
+}
+.subscribe .left button {
+  display: flex;
+  position: absolute;
+  padding: 10px 15px;
+  top: 3027px;
+  left: 650px;
+  border-radius: 10px;
+  border: 1px solid #3858d6;
+  color: white;
+  background-color: #3858d6;
+}
+
+.subscribe .right {
+  margin-left: 30px;
+  padding-bottom: 60px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.ftr {
+    display: flex;
+    color: white;
+}
+.ftr h2{
+    font-size: 16px;
+    display: flex;
+    margin: 0 auto;
+}
